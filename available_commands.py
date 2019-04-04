@@ -2,7 +2,7 @@
 #
 from libLGTV_serial import LGTV
 
-model = '43LW560H'                    # Change this to your TV's model
+model = '43LX560H'                    # Change this to your TV's model
 tv = LGTV(model, 'dont_care')
 
 # Example of adding a custom toggle command. Passing in '--toggleinput'
